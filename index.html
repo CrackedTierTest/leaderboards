@@ -993,227 +993,6 @@
     .top-players-grid { grid-template-columns: 1fr; }
   }
 
-  /* ── STORE PAGE ── */
-  .store-wrap {
-    max-width: 1100px;
-    margin: 0 auto;
-    padding: 36px 24px 80px;
-    position: relative;
-    z-index: 1;
-  }
-  .store-header {
-    margin-bottom: 44px;
-  }
-  .store-tag {
-    display: inline-flex;
-    align-items: center;
-    gap: 7px;
-    font-size: 13px;
-    font-weight: 700;
-    color: var(--grass);
-    border: 1px solid rgba(204,34,34,0.35);
-    background: rgba(204,34,34,0.1);
-    padding: 5px 12px;
-    border-radius: 6px;
-    margin-bottom: 14px;
-    letter-spacing: 0.5px;
-  }
-  .store-title {
-    font-family: "Rajdhani", sans-serif;
-    font-size: clamp(32px, 5vw, 52px);
-    font-weight: 700;
-    color: var(--grass);
-    line-height: 1;
-    margin-bottom: 10px;
-  }
-  .store-desc {
-    font-size: 15px;
-    color: var(--muted);
-    max-width: 520px;
-    line-height: 1.7;
-  }
-
-  .store-section { margin-bottom: 48px; }
-  .store-section-label {
-    display: flex;
-    align-items: center;
-    gap: 10px;
-    font-size: 20px;
-    font-weight: 700;
-    color: var(--text);
-    margin-bottom: 18px;
-    letter-spacing: 0.5px;
-  }
-  .store-section-label .sl-icon {
-    color: var(--grass);
-    font-size: 18px;
-  }
-  .store-section-label .sl-badge {
-    font-size: 11px;
-    font-weight: 700;
-    color: var(--grass);
-    border: 1px solid rgba(204,34,34,0.4);
-    background: rgba(204,34,34,0.1);
-    padding: 2px 9px;
-    border-radius: 20px;
-    letter-spacing: 0.5px;
-  }
-
-  /* BUNDLE GRID — 3 col */
-  .bundle-grid {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 14px;
-  }
-  /* UTILITY GRID — 4 col */
-  .utility-grid {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 14px;
-  }
-  /* COSMETIC GRID — 2 col */
-  .cosmetic-grid {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 14px;
-  }
-
-  .store-card {
-    background: var(--panel);
-    border: 1px solid var(--border);
-    border-radius: 10px;
-    padding: 20px;
-    display: flex;
-    flex-direction: column;
-    position: relative;
-    transition: border-color 0.2s, transform 0.2s;
-  }
-  .store-card:hover { border-color: rgba(204,34,34,0.4); transform: translateY(-2px); }
-  .store-card.popular {
-    border-color: rgba(204,34,34,0.5);
-    box-shadow: 0 0 20px rgba(204,34,34,0.1);
-  }
-
-  .store-popular-tag {
-    position: absolute;
-    top: 14px; left: 16px;
-    font-size: 10px;
-    font-weight: 700;
-    color: var(--grass);
-    letter-spacing: 1px;
-    display: flex;
-    align-items: center;
-    gap: 4px;
-  }
-  .store-card-type {
-    position: absolute;
-    top: 14px; right: 16px;
-    font-size: 11px;
-    color: var(--muted);
-    background: rgba(255,255,255,0.06);
-    border: 1px solid var(--border);
-    padding: 2px 9px;
-    border-radius: 4px;
-    font-weight: 600;
-  }
-
-  .store-card-icon {
-    width: 42px; height: 42px;
-    background: rgba(204,34,34,0.12);
-    border: 1px solid rgba(204,34,34,0.25);
-    border-radius: 9px;
-    display: flex; align-items: center; justify-content: center;
-    font-size: 20px;
-    margin-bottom: 14px;
-    margin-top: 28px;
-  }
-  .store-card.no-tag .store-card-icon { margin-top: 0; }
-
-  .store-card-title {
-    font-size: 17px;
-    font-weight: 700;
-    color: var(--text);
-    margin-bottom: 5px;
-  }
-  .store-card-desc {
-    font-size: 13px;
-    color: var(--muted);
-    line-height: 1.6;
-    margin-bottom: 16px;
-  }
-  .store-card-features {
-    list-style: none;
-    display: flex;
-    flex-direction: column;
-    gap: 6px;
-    margin-bottom: 20px;
-    flex: 1;
-  }
-  .store-card-features li {
-    display: flex;
-    align-items: center;
-    gap: 8px;
-    font-size: 13px;
-    color: #aaa;
-  }
-  .store-card-features li::before {
-    content: "✓";
-    color: var(--grass);
-    font-weight: 700;
-    font-size: 12px;
-    flex-shrink: 0;
-  }
-  .store-card-footer {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin-top: auto;
-    padding-top: 16px;
-    border-top: 1px solid var(--border);
-  }
-  .store-price {
-    font-family: "Rajdhani", sans-serif;
-    font-size: 26px;
-    font-weight: 700;
-    color: var(--grass);
-  }
-  .store-buy-btn {
-    font-family: "Rajdhani", sans-serif;
-    font-size: 14px;
-    font-weight: 700;
-    padding: 8px 22px;
-    background: var(--grass);
-    border: none;
-    color: #fff;
-    cursor: pointer;
-    border-radius: 6px;
-    letter-spacing: 0.5px;
-    transition: all 0.2s;
-  }
-  .store-buy-btn:hover { background: #e02828; box-shadow: 0 0 14px rgba(204,34,34,0.4); }
-
-  .store-disclaimer {
-    background: var(--panel);
-    border: 1px solid var(--border);
-    border-radius: 8px;
-    padding: 16px 20px;
-    text-align: center;
-    font-size: 13px;
-    color: var(--muted);
-    line-height: 1.7;
-    margin-top: 20px;
-  }
-
-  @media (max-width: 900px) {
-    .bundle-grid  { grid-template-columns: 1fr 1fr; }
-    .utility-grid { grid-template-columns: 1fr 1fr; }
-  }
-  @media (max-width: 560px) {
-    .bundle-grid  { grid-template-columns: 1fr; }
-    .utility-grid { grid-template-columns: 1fr; }
-    .cosmetic-grid { grid-template-columns: 1fr; }
-  }
-
   /* ── STAFF PAGE ── */
   .staff-wrap {
     max-width: 900px;
@@ -1699,6 +1478,33 @@
     .gm-mode-btn { flex: 1 1 auto; min-width: 120px; }
   }
 
+  /* ── SKIN HEADS ── */
+  .skin-head {
+    width: 100%; height: 100%;
+    object-fit: cover;
+    display: block;
+    image-rendering: pixelated;
+    border-radius: 4px;
+  }
+  .skin-avatar { overflow: hidden; border-radius: 4px; }
+  .skin-init {
+    width: 100%; height: 100%;
+    display: flex; align-items: center; justify-content: center;
+    font-family: 'Press Start 2P', monospace;
+    font-size: 11px;
+    color: var(--grass);
+    background: var(--panel2);
+    border-radius: 4px;
+  }
+  .gm-avatar .skin-head { width: 36px; height: 36px; }
+  .gm-avatar .skin-fallback {
+    width: 36px; height: 36px;
+    display: flex; align-items: center; justify-content: center;
+    font-family: 'Press Start 2P', monospace;
+    font-size: 11px; color: var(--grass);
+    background: var(--panel2); border-radius: 4px;
+  }
+
   /* ── NAV DISCORD ICON ── */
   .nav-discord {
     display: flex;
@@ -1744,43 +1550,6 @@
   }
   .nav-discord:hover::after { opacity: 1; }
 
-  /* ── STORE TICKET NOTICE ── */
-  .store-ticket-notice {
-    display: flex;
-    align-items: center;
-    gap: 10px;
-    margin: 10px 0 20px;
-    padding: 12px 18px;
-    background: rgba(114,137,218,0.07);
-    border: 1px solid rgba(114,137,218,0.2);
-    border-left: 3px solid #7289da;
-    border-radius: 6px;
-    font-family: 'Rajdhani', sans-serif;
-    font-size: 15px;
-    font-weight: 600;
-    color: #b0b8e8;
-    letter-spacing: 0.3px;
-    text-decoration: none;
-    transition: background 0.2s, border-color 0.2s;
-  }
-  .store-ticket-notice:hover {
-    background: rgba(114,137,218,0.13);
-    border-color: rgba(114,137,218,0.45);
-  }
-  .store-ticket-link {
-    color: #7289da;
-    text-decoration: underline;
-    text-underline-offset: 3px;
-    margin-left: 2px;
-  }
-  .store-ticket-notice:hover .store-ticket-link {
-    color: #99aaff;
-  }
-  .store-discord-icon {
-    width: 20px; height: 20px;
-    fill: #7289da;
-    flex-shrink: 0;
-  }
 </style>
 </head>
 <body>
@@ -1807,7 +1576,6 @@
     <div class="nav-tab" onclick="switchTab('tierlist')">Tier List</div>
     <div class="nav-tab" onclick="switchTab('gamemodes')">Gamemodes</div>
     <div class="nav-tab" onclick="switchTab('leaderboards')">Leaderboards</div>
-    <div class="nav-tab" onclick="switchTab('store')">Store</div>
     <div class="nav-tab" onclick="switchTab('staff')">Staff</div>
   </div>
   <a class="nav-discord" href="https://discord.gg/U7h4WtVKdR" target="_blank" title="https://discord.gg/U7h4WtVKdR">
@@ -1973,204 +1741,6 @@
   </div>
 </div>
 
-<!-- ═══ STORE ═══ -->
-<div class="tab-page" id="tab-store">
-  <div class="page-title-bar"><span class="page-title-text">Store</span><span class="page-title-sep">/</span><span class="page-title-sub">Non-Pay-To-Win</span><span class="page-title-desc">Utility items, cosmetics, and bundles to enhance your tier testing experience. None of our items affect PvP performance.</span></div>
-  <div class="store-wrap">
-
-    <!-- STORE HEADER -->
-    <!-- BUNDLES -->
-    <div class="store-section">
-      <div class="store-section-label">
-        <span class="sl-icon">&#9635;</span> Bundles <span class="sl-badge">Best Value</span>
-      </div>
-      <a class="store-ticket-notice" href="https://discord.gg/U7h4WtVKdR" target="_blank">
-        <svg class="store-discord-icon" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path d="M20.317 4.37a19.791 19.791 0 0 0-4.885-1.515.074.074 0 0 0-.079.037c-.21.375-.444.864-.608 1.25a18.27 18.27 0 0 0-5.487 0 12.64 12.64 0 0 0-.617-1.25.077.077 0 0 0-.079-.037A19.736 19.736 0 0 0 3.677 4.37a.07.07 0 0 0-.032.027C.533 9.046-.32 13.58.099 18.057c.002.022.015.043.032.054a19.9 19.9 0 0 0 5.993 3.03.078.078 0 0 0 .084-.028c.462-.63.874-1.295 1.226-1.994a.076.076 0 0 0-.041-.106 13.107 13.107 0 0 1-1.872-.892.077.077 0 0 1-.008-.128 10.2 10.2 0 0 0 .372-.292.074.074 0 0 1 .077-.01c3.928 1.793 8.18 1.793 12.062 0a.074.074 0 0 1 .078.01c.12.098.246.198.373.292a.077.077 0 0 1-.006.127 12.299 12.299 0 0 1-1.873.892.077.077 0 0 0-.041.107c.36.698.772 1.362 1.225 1.993a.076.076 0 0 0 .084.028 19.839 19.839 0 0 0 6.002-3.03.077.077 0 0 0 .032-.054c.5-5.177-.838-9.674-3.549-13.66a.061.061 0 0 0-.031-.03zM8.02 15.33c-1.183 0-2.157-1.085-2.157-2.419 0-1.333.956-2.419 2.157-2.419 1.21 0 2.176 1.096 2.157 2.42 0 1.333-.956 2.418-2.157 2.418zm7.975 0c-1.183 0-2.157-1.085-2.157-2.419 0-1.333.955-2.419 2.157-2.419 1.21 0 2.176 1.096 2.157 2.42 0 1.333-.946 2.418-2.157 2.418z"/></svg>
-        Please create a ticket in the discord server for the purchase... <span class="store-ticket-link">click here</span>
-      </a>
-      <div class="bundle-grid">
-
-        <div class="store-card no-tag">
-          <div class="store-card-type">Bundle</div>
-          <div class="store-card-icon">&#9635;</div>
-          <div class="store-card-title">Starter Bundle</div>
-          <div class="store-card-desc">Perfect for new players looking to climb the ranks</div>
-          <ul class="store-card-features">
-            <li>Fast-Track Test</li>
-            <li>Re-Test Token</li>
-            <li>Elite Badge</li>
-          </ul>
-          <div class="store-card-footer">
-            <div class="store-price">$4.00</div>
-            <button class="store-buy-btn">Purchase</button>
-          </div>
-        </div>
-
-        <div class="store-card popular">
-          <div class="store-popular-tag">&#9733; POPULAR</div>
-          <div class="store-card-type">Bundle</div>
-          <div class="store-card-icon">&#9635;</div>
-          <div class="store-card-title">Pro Bundle</div>
-          <div class="store-card-desc">Everything you need to dominate</div>
-          <ul class="store-card-features">
-            <li>Fast-Track Test x2</li>
-            <li>1-Hour Coaching</li>
-            <li>Leaderboard Highlight</li>
-            <li>Elite Badge</li>
-          </ul>
-          <div class="store-card-footer">
-            <div class="store-price">$8.00</div>
-            <button class="store-buy-btn">Purchase</button>
-          </div>
-        </div>
-
-        <div class="store-card no-tag">
-          <div class="store-card-type">Bundle</div>
-          <div class="store-card-icon">&#9635;</div>
-          <div class="store-card-title">Grinder Bundle</div>
-          <div class="store-card-desc">For the dedicated grinder testing multiple versions</div>
-          <ul class="store-card-features">
-            <li>Fast-Track Test x3</li>
-            <li>Version Switch Test x2</li>
-            <li>Re-Test Token x3</li>
-            <li>Leaderboard Highlight</li>
-          </ul>
-          <div class="store-card-footer">
-            <div class="store-price">$12.00</div>
-            <button class="store-buy-btn">Purchase</button>
-          </div>
-        </div>
-
-      </div>
-    </div>
-
-    <!-- UTILITY -->
-    <div class="store-section">
-      <div class="store-section-label">
-        <span class="sl-icon">&#9889;</span> Utility
-      </div>
-      <div class="utility-grid">
-
-        <div class="store-card popular">
-          <div class="store-popular-tag">&#9733; POPULAR</div>
-          <div class="store-card-type">Utility</div>
-          <div class="store-card-icon">&#9889;</div>
-          <div class="store-card-title">Fast-Track Test</div>
-          <div class="store-card-desc">Skip the queue and get tested within 24 hours</div>
-          <ul class="store-card-features">
-            <li>Priority queue</li>
-            <li>24h guarantee</li>
-            <li>Any version</li>
-          </ul>
-          <div class="store-card-footer">
-            <div class="store-price">$2.00</div>
-            <button class="store-buy-btn">Purchase</button>
-          </div>
-        </div>
-
-        <div class="store-card no-tag">
-          <div class="store-card-type">Utility</div>
-          <div class="store-card-icon">&#9889;</div>
-          <div class="store-card-title">Re-Test Token</div>
-          <div class="store-card-desc">Request a new tier test before the standard cooldown</div>
-          <ul class="store-card-features">
-            <li>Bypass 2-week cooldown</li>
-            <li>One-time use</li>
-            <li>Keep current tier if lower</li>
-          </ul>
-          <div class="store-card-footer">
-            <div class="store-price">$1.50</div>
-            <button class="store-buy-btn">Purchase</button>
-          </div>
-        </div>
-
-        <div class="store-card no-tag">
-          <div class="store-card-type">Utility</div>
-          <div class="store-card-icon">&#9889;</div>
-          <div class="store-card-title">Version Switch Test</div>
-          <div class="store-card-desc">Get tested on a different Minecraft version</div>
-          <ul class="store-card-features">
-            <li>Test on any version</li>
-            <li>No cooldown</li>
-            <li>Keep best tier per version</li>
-          </ul>
-          <div class="store-card-footer">
-            <div class="store-price">$2.00</div>
-            <button class="store-buy-btn">Purchase</button>
-          </div>
-        </div>
-
-        <div class="store-card popular">
-          <div class="store-popular-tag">&#9733; POPULAR</div>
-          <div class="store-card-type">Utility</div>
-          <div class="store-card-icon">&#9889;</div>
-          <div class="store-card-title">1-Hour Coaching</div>
-          <div class="store-card-desc">Private coaching session with a certified coach</div>
-          <ul class="store-card-features">
-            <li>1v1 training</li>
-            <li>VOD review</li>
-            <li>Custom tips</li>
-            <li>Any version</li>
-          </ul>
-          <div class="store-card-footer">
-            <div class="store-price">$5.00</div>
-            <button class="store-buy-btn">Purchase</button>
-          </div>
-        </div>
-
-      </div>
-    </div>
-
-    <!-- COSMETICS -->
-    <div class="store-section">
-      <div class="store-section-label">
-        <span class="sl-icon">&#10022;</span> Cosmetics
-      </div>
-      <div class="cosmetic-grid">
-
-        <div class="store-card no-tag">
-          <div class="store-card-type">Cosmetic</div>
-          <div class="store-card-icon">&#10022;</div>
-          <div class="store-card-title">Elite Badge</div>
-          <div class="store-card-desc">Show off your dedication with a special profile badge</div>
-          <ul class="store-card-features">
-            <li>Profile badge</li>
-            <li>Leaderboard icon</li>
-            <li>Discord role</li>
-          </ul>
-          <div class="store-card-footer">
-            <div class="store-price">$1.50</div>
-            <button class="store-buy-btn">Purchase</button>
-          </div>
-        </div>
-
-        <div class="store-card no-tag">
-          <div class="store-card-type">Cosmetic</div>
-          <div class="store-card-icon">&#10022;</div>
-          <div class="store-card-title">Leaderboard Highlight</div>
-          <div class="store-card-desc">Your name glows on the leaderboard for 30 days</div>
-          <ul class="store-card-features">
-            <li>Glowing name</li>
-            <li>30-day duration</li>
-            <li>Custom color</li>
-          </ul>
-          <div class="store-card-footer">
-            <div class="store-price">$2.00</div>
-            <button class="store-buy-btn">Purchase</button>
-          </div>
-        </div>
-
-      </div>
-    </div>
-
-    <!-- DISCLAIMER -->
-    <div class="store-disclaimer">
-      All purchases are non-refundable. Store items do not affect PvP performance or tier test outcomes. Tiers are earned purely through skill demonstration.
-    </div>
-
-  </div>
-</div>
-
 <!-- ═══ STAFF ═══ -->
 <div class="tab-page" id="tab-staff">
   <div class="page-title-bar"><span class="page-title-text">Staff</span><span class="page-title-sep">/</span><span class="page-title-sub">The Team</span><span class="page-title-desc">Meet the dedicated team behind PVP Tiers. From developers to coaches, our staff works hard to provide the best tier testing experience.</span></div>
@@ -2186,7 +1756,7 @@
     </div>
     <div class="staff-members">
         <div class="staff-card">
-          <div class="staff-avatar"><img src="https://minotar.net/helm/falter3d/64" alt="falter3d" onerror="this.style.display='none'"></div>
+          <div class="staff-avatar"><img class="skin-head staff-skin" src="https://crafatar.com/avatars/falter3d?size=64&overlay" alt="falter3d" onerror="this.style.display='none'"></div>
           <div class="staff-info">
             <div class="staff-name">falter3d</div>
             <div class="staff-role owner">Owner</div>
@@ -2194,7 +1764,7 @@
           </div>
         </div>
         <div class="staff-card">
-          <div class="staff-avatar"><img src="https://minotar.net/helm/ISHWARRIOR/64" alt="ISHWARRIOR" onerror="this.style.display='none'"></div>
+          <div class="staff-avatar"><img class="skin-head staff-skin" src="https://crafatar.com/avatars/ISHWARRIOR?size=64&overlay" alt="ISHWARRIOR" onerror="this.style.display='none'"></div>
           <div class="staff-info">
             <div class="staff-name">ISHWARRIOR</div>
             <div class="staff-role owner">Owner</div>
@@ -2214,7 +1784,7 @@
     </div>
     <div class="staff-members">
         <div class="staff-card">
-          <div class="staff-avatar"><img src="https://minotar.net/helm/ZentrixVayne/64" alt="ZentrixVayne" onerror="this.style.display='none'"></div>
+          <div class="staff-avatar"><img class="skin-head staff-skin" src="https://crafatar.com/avatars/ZentrixVayne?size=64&overlay" alt="ZentrixVayne" onerror="this.style.display='none'"></div>
           <div class="staff-info">
             <div class="staff-name">ZentrixVayne</div>
             <div class="staff-role coowner">Co-Owner</div>
@@ -2222,7 +1792,7 @@
           </div>
         </div>
         <div class="staff-card">
-          <div class="staff-avatar"><img src="https://minotar.net/helm/pikashrey/64" alt="pikashrey" onerror="this.style.display='none'"></div>
+          <div class="staff-avatar"><img class="skin-head staff-skin" src="https://crafatar.com/avatars/pikashrey?size=64&overlay" alt="pikashrey" onerror="this.style.display='none'"></div>
           <div class="staff-info">
             <div class="staff-name">pikashrey</div>
             <div class="staff-role coowner">Co-Owner</div>
@@ -2242,9 +1812,17 @@
     </div>
     <div class="staff-members">
         <div class="staff-card">
-          <div class="staff-avatar"><img src="https://minotar.net/helm/philips123_o/64" alt="philips123_o" onerror="this.style.display='none'"></div>
+          <div class="staff-avatar"><img class="skin-head staff-skin" src="https://crafatar.com/avatars/philips123_o?size=64&overlay" alt="philips123_o" onerror="this.style.display='none'"></div>
           <div class="staff-info">
             <div class="staff-name">philips123_o</div>
+            <div class="staff-role manager">Manager</div>
+            <div class="staff-subrole">Platform Manager</div>
+          </div>
+        </div>
+        <div class="staff-card">
+          <div class="staff-avatar"><img class="skin-head staff-skin" src="https://crafatar.com/avatars/catman?size=64&overlay" alt="catman" onerror="this.style.display='none'"></div>
+          <div class="staff-info">
+            <div class="staff-name">catman</div>
             <div class="staff-role manager">Manager</div>
             <div class="staff-subrole">Platform Manager</div>
           </div>
@@ -2262,7 +1840,7 @@
     </div>
     <div class="staff-members">
         <div class="staff-card">
-          <div class="staff-avatar"><img src="https://minotar.net/helm/pikashrey/64" alt="pikashrey" onerror="this.style.display='none'"></div>
+          <div class="staff-avatar"><img class="skin-head staff-skin" src="https://crafatar.com/avatars/pikashrey?size=64&overlay" alt="pikashrey" onerror="this.style.display='none'"></div>
           <div class="staff-info">
             <div class="staff-name">pikashrey</div>
             <div class="staff-role devmgr">Developer Manager</div>
@@ -2282,7 +1860,7 @@
     </div>
     <div class="staff-members">
         <div class="staff-card">
-          <div class="staff-avatar"><img src="https://minotar.net/helm/Ashirisronaldo/64" alt="Ashirisronaldo" onerror="this.style.display='none'"></div>
+          <div class="staff-avatar"><img class="skin-head staff-skin" src="https://crafatar.com/avatars/Ashirisronaldo?size=64&overlay" alt="Ashirisronaldo" onerror="this.style.display='none'"></div>
           <div class="staff-info">
             <div class="staff-name">Ashirisronaldo</div>
             <div class="staff-role maindev">Main Developer</div>
@@ -2302,7 +1880,7 @@
     </div>
     <div class="staff-members">
         <div class="staff-card">
-          <div class="staff-avatar"><img src="https://minotar.net/helm/philips123_o/64" alt="philips123_o" onerror="this.style.display='none'"></div>
+          <div class="staff-avatar"><img class="skin-head staff-skin" src="https://crafatar.com/avatars/philips123_o?size=64&overlay" alt="philips123_o" onerror="this.style.display='none'"></div>
           <div class="staff-info">
             <div class="staff-name">philips123_o</div>
             <div class="staff-role dev">Developer</div>
@@ -2310,7 +1888,7 @@
           </div>
         </div>
         <div class="staff-card">
-          <div class="staff-avatar"><img src="https://minotar.net/helm/falter3d/64" alt="falter3d" onerror="this.style.display='none'"></div>
+          <div class="staff-avatar"><img class="skin-head staff-skin" src="https://crafatar.com/avatars/falter3d?size=64&overlay" alt="falter3d" onerror="this.style.display='none'"></div>
           <div class="staff-info">
             <div class="staff-name">falter3d</div>
             <div class="staff-role dev">Developer</div>
@@ -2330,7 +1908,7 @@
     </div>
     <div class="staff-members">
         <div class="staff-card">
-          <div class="staff-avatar"><img src="https://minotar.net/helm/Not_Towier/64" alt="Not_Towier" onerror="this.style.display='none'"></div>
+          <div class="staff-avatar"><img class="skin-head staff-skin" src="https://crafatar.com/avatars/Not_Towier?size=64&overlay" alt="Not_Towier" onerror="this.style.display='none'"></div>
           <div class="staff-info">
             <div class="staff-name">Not_Towier</div>
             <div class="staff-role trialmod">Trial Moderator</div>
@@ -2338,7 +1916,7 @@
           </div>
         </div>
         <div class="staff-card">
-          <div class="staff-avatar"><img src="https://minotar.net/helm/jug789/64" alt="jug789" onerror="this.style.display='none'"></div>
+          <div class="staff-avatar"><img class="skin-head staff-skin" src="https://crafatar.com/avatars/jug789?size=64&overlay" alt="jug789" onerror="this.style.display='none'"></div>
           <div class="staff-info">
             <div class="staff-name">jug789</div>
             <div class="staff-role trialmod">Trial Moderator</div>
@@ -2346,7 +1924,7 @@
           </div>
         </div>
         <div class="staff-card">
-          <div class="staff-avatar"><img src="https://minotar.net/helm/Sharve/64" alt="Sharve" onerror="this.style.display='none'"></div>
+          <div class="staff-avatar"><img class="skin-head staff-skin" src="https://crafatar.com/avatars/Sharve?size=64&overlay" alt="Sharve" onerror="this.style.display='none'"></div>
           <div class="staff-info">
             <div class="staff-name">Sharve</div>
             <div class="staff-role trialmod">Trial Moderator</div>
@@ -2389,7 +1967,7 @@ function switchTab(id) {
   void page.offsetWidth;
   page.classList.add('tab-enter');
   const tabs = document.querySelectorAll('.nav-tab');
-  const labels = ['home','tierlist','gamemodes','leaderboards','store','staff'];
+  const labels = ['home','tierlist','gamemodes','leaderboards','staff'];
   tabs[labels.indexOf(id)]?.classList.add('active');
   window.scrollTo({top: 0, behavior: 'smooth'});
 }
@@ -2487,10 +2065,54 @@ function buildRanksFromGMData() {
   ];
 }
 
+// ── SKIN / UUID SYSTEM ──
+const uuidCache = {};
+
+function skinUrl(name, size) {
+  const uuid = uuidCache[name.toLowerCase()];
+  if (uuid && uuid !== 'not_found') return `https://crafatar.com/avatars/${uuid}?size=${size}&overlay`;
+  return `https://crafatar.com/avatars/${encodeURIComponent(name)}?size=${size}&overlay`;
+}
+
+function avatarHtml(name, size) {
+  return `<img class="skin-head" src="${skinUrl(name, size)}" alt="${name}" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'"><span class="skin-init" style="display:none">${name.charAt(0).toUpperCase()}</span>`;
+}
+
+async function resolveUUIDs() {
+  const names = new Set();
+  // Ranked players
+  Object.values(GM_DATA).forEach(tiers =>
+    Object.values(tiers).forEach(players => players.forEach(p => names.add(p.name)))
+  );
+  // Staff members (pulled from their skin-head alt attributes)
+  document.querySelectorAll('img.skin-head').forEach(img => {
+    if (img.alt) names.add(img.alt);
+  });
+  await Promise.all([...names].map(async name => {
+    const key = name.toLowerCase();
+    if (uuidCache[key]) return;
+    try {
+      const res = await fetch(`https://api.minetools.eu/uuid/${encodeURIComponent(name)}`);
+      const data = await res.json();
+      uuidCache[key] = (data && data.id && data.id !== 'None') ? data.id : 'not_found';
+    } catch { uuidCache[key] = 'not_found'; }
+  }));
+  document.querySelectorAll('img.skin-head').forEach(img => {
+    const uuid = uuidCache[(img.alt || '').toLowerCase()];
+    if (uuid && uuid !== 'not_found') {
+      const size = img.closest('.tp-avatar') ? 40 : 64;
+      img.src = `https://crafatar.com/avatars/${uuid}?size=${size}&overlay`;
+    }
+  });
+  buildTierList();
+  buildHomeTopPlayers();
+  if (typeof gmCurrentMode !== 'undefined' && gmCurrentMode) gmBuildPanel(gmCurrentMode);
+}
+
 const RANKS = buildRanksFromGMData();
 
-let globalPos = 1;
 const lb = document.getElementById('leaderboard');
+let globalPos = 1;
 
 RANKS.forEach((rank, ri) => {
   if (rank.players.length === 0) return;
@@ -2528,7 +2150,7 @@ RANKS.forEach((rank, ri) => {
 
     row.innerHTML = `
       ${posHtml}
-      <div class="avatar">${p.emoji}</div>
+      <div class="avatar skin-avatar"><img class="skin-head" src="${skinUrl(p.name, 64)}" alt="${p.name}" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'"><span class="skin-init" style="display:none">${p.name.charAt(0).toUpperCase()}</span></div>
       <div class="player-name">${crown}${p.name}</div>
       <span class="player-version tag18" style="font-size:11px;max-width:220px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;">${gmLabel}</span>
       <div class="player-score">${rank.label}</div>
@@ -2557,7 +2179,7 @@ function buildHomeTopPlayers() {
       card.className = 'top-player-card rank-' + rank.key + (globalP <= 3 ? ' is-top3' : '');
       card.onclick = () => switchTab('leaderboards');
       const posClass = globalP === 1 ? 'gold' : globalP === 2 ? 'silver' : globalP === 3 ? 'bronze' : '';
-      card.innerHTML = `<div class="tp-pos ${posClass}">#${globalP}</div><div class="tp-avatar">${p.emoji}<span class="tp-dot"></span></div><div class="tp-info"><div class="tp-name">${p.name}</div><div class="tp-ver">${p.version}</div></div><div class="tp-rank">${rank.label}</div>`;
+      card.innerHTML = `<div class="tp-pos ${posClass}">#${globalP}</div><div class="tp-avatar skin-avatar"><img class="skin-head" src="${skinUrl(p.name, 40)}" alt="${p.name}" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'"><span class="skin-init" style="display:none">${p.name.charAt(0).toUpperCase()}</span><span class="tp-dot"></span></div><div class="tp-info"><div class="tp-name">${p.name}</div><div class="tp-ver">${p.version}</div></div><div class="tp-rank">${rank.label}</div>`;
       grid.appendChild(card);
       shown++;
       globalP++;
@@ -2589,8 +2211,8 @@ function buildTierList() {
       card.className = 'tl-card ' + rank.key;
       card.style.animationDelay = (shown * 0.03) + 's';
       card.innerHTML = `
-        <div class="tl-card-avatar">
-          ${p.emoji}
+        <div class="tl-card-avatar skin-avatar">
+          ${avatarHtml(p.name, 40)}
           <span class="online-dot"></span>
         </div>
         <div class="tl-card-info">
@@ -2612,7 +2234,6 @@ function buildTierList() {
 }
 
 document.addEventListener('DOMContentLoaded', () => {
-  // Version buttons
   document.querySelectorAll('.tl-ver-btn').forEach(btn => {
     btn.addEventListener('click', () => {
       document.querySelectorAll('.tl-ver-btn').forEach(b => b.classList.remove('active'));
@@ -2620,8 +2241,6 @@ document.addEventListener('DOMContentLoaded', () => {
       buildTierList();
     });
   });
-
-  // Tier buttons
   document.querySelectorAll('.tl-tier-btn').forEach(btn => {
     btn.addEventListener('click', () => {
       document.querySelectorAll('.tl-tier-btn').forEach(b => b.classList.remove('active'));
@@ -2629,21 +2248,20 @@ document.addEventListener('DOMContentLoaded', () => {
       buildTierList();
     });
   });
-
-  // Search
   document.getElementById('tl-search')?.addEventListener('input', buildTierList);
 
-  // Initial build
-  buildTierList();
-  buildHomeTopPlayers();
-  gmBuildSidebar();
-
-  // Update counts from RANKS data
-  document.getElementById('count-all').textContent   = RANKS.reduce((s,r) => s + r.players.length, 0);
+  document.getElementById('count-all').textContent = RANKS.reduce((s,r) => s + r.players.length, 0);
   RANKS.forEach(r => {
     const el = document.getElementById('count-' + r.key);
     if (el) el.textContent = r.players.length;
   });
+
+  buildTierList();
+  buildHomeTopPlayers();
+  gmBuildSidebar();
+
+  // Resolve UUIDs after a short delay so initial render is instant
+  setTimeout(resolveUUIDs, 500);
 });
 
 
@@ -2694,7 +2312,9 @@ window.addEventListener('load', () => {
   }, 1500);
 });
 
-// ── GAMEMODES PLAYER DATA (defined above, reused here) ──
+
+
+
 
 const GM_TIER_META = [
   { key: 'splus', label: 'S+', name: 'Godlike'  },
@@ -2788,7 +2408,7 @@ function gmBuildPanel(mode) {
         html += `
           <div class="gm-player-row">
             <div class="gm-pos ${posClass}">#${pos}</div>
-            <div class="gm-avatar">${p.emoji}</div>
+            <div class="gm-avatar"><img class="skin-head" src="${skinUrl(p.name, 36)}" alt="${p.name}" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'"><span class="skin-fallback" style="display:none">${p.name.charAt(0).toUpperCase()}</span></div>
             <div class="gm-name">${p.name}</div>
             <div class="gm-score">${tier.label}</div>
           </div>`;
