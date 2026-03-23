@@ -1,0 +1,197 @@
+{
+  "generatedAt": "2026-03-23T01:08:15.300Z",
+  "stats": {
+    "totalPlayers": 15,
+    "totalResults": 15,
+    "rankedPlayers": 10
+  },
+  "gamemodes": {
+    "1.8": [
+      "Boxing",
+      "Sumo",
+      "Bedfight",
+      "Fireball Fight",
+      "The Bridge",
+      "Block Placements",
+      "Build UHC",
+      "Bedwars"
+    ],
+    "1.9+": [
+      "Vanilla",
+      "UHC",
+      "Pot",
+      "NethOP",
+      "SMP",
+      "Sword",
+      "Axe",
+      "Mace"
+    ]
+  },
+  "overall": [
+    {
+      "ign": "SharveIsMe",
+      "tier": "S-",
+      "gamemode": "Bedfight",
+      "region": "AS",
+      "updatedAt": "2026-03-05 04:32:18",
+      "tierOrder": 16
+    },
+    {
+      "ign": "ExpretBots",
+      "tier": "A+",
+      "gamemode": "Bedwars",
+      "region": "N/A",
+      "updatedAt": "2026-03-23 01:02:46",
+      "tierOrder": 14
+    },
+    {
+      "ign": "iccycup_",
+      "tier": "A+",
+      "gamemode": "Bedfight",
+      "region": "AS",
+      "updatedAt": "2026-03-04 06:52:13",
+      "tierOrder": 14
+    },
+    {
+      "ign": "philipa123_o",
+      "tier": "A+",
+      "gamemode": "Bedwars",
+      "region": "AS",
+      "updatedAt": "2026-03-23 00:53:56",
+      "tierOrder": 14
+    },
+    {
+      "ign": "philips123_o",
+      "tier": "A+",
+      "gamemode": "Bedwars",
+      "region": "AS",
+      "updatedAt": "2026-03-23 00:59:05",
+      "tierOrder": 14
+    },
+    {
+      "ign": "PotatoPlayer922",
+      "tier": "B+",
+      "gamemode": "Bedfight",
+      "region": "N/A",
+      "updatedAt": "2026-03-05 16:17:14",
+      "tierOrder": 10
+    },
+    {
+      "ign": "CoreRiseOg",
+      "tier": "B-",
+      "gamemode": "Boxing",
+      "region": "N/A",
+      "updatedAt": "2026-03-07 12:33:39",
+      "tierOrder": 8
+    },
+    {
+      "ign": "ashiristhe",
+      "tier": "B-",
+      "gamemode": "Bedfight",
+      "region": "as",
+      "updatedAt": "2026-03-06 12:37:50",
+      "tierOrder": 8
+    },
+    {
+      "ign": "mystery_craft",
+      "tier": "B-",
+      "gamemode": "Bedwars",
+      "region": "As",
+      "updatedAt": "2026-03-23 01:08:15",
+      "tierOrder": 8
+    },
+    {
+      "ign": "pikashrey",
+      "tier": "D-",
+      "gamemode": "Bedfight",
+      "region": "as",
+      "updatedAt": "2026-03-05 04:30:01",
+      "tierOrder": 0
+    }
+  ],
+  "byGamemode": {
+    "Boxing": [
+      {
+        "ign": "CoreRiseOg",
+        "tier": "B-",
+        "region": "N/A",
+        "updatedAt": "2026-03-07 12:33:39",
+        "tierOrder": 8
+      }
+    ],
+    "Bedwars": [
+      {
+        "ign": "ExpretBots",
+        "tier": "A+",
+        "region": "N/A",
+        "updatedAt": "2026-03-23 01:02:46",
+        "tierOrder": 14
+      },
+      {
+        "ign": "philipa123_o",
+        "tier": "A+",
+        "region": "AS",
+        "updatedAt": "2026-03-23 00:53:56",
+        "tierOrder": 14
+      },
+      {
+        "ign": "philips123_o",
+        "tier": "A+",
+        "region": "AS",
+        "updatedAt": "2026-03-23 00:59:05",
+        "tierOrder": 14
+      },
+      {
+        "ign": "mystery_craft",
+        "tier": "B-",
+        "region": "As",
+        "updatedAt": "2026-03-23 01:08:15",
+        "tierOrder": 8
+      },
+      {
+        "ign": "iccycup_",
+        "tier": "LT",
+        "region": "AS",
+        "updatedAt": "2026-03-03 17:35:13",
+        "tierOrder": -1
+      }
+    ],
+    "Bedfight": [
+      {
+        "ign": "SharveIsMe",
+        "tier": "S-",
+        "region": "AS",
+        "updatedAt": "2026-03-05 04:32:18",
+        "tierOrder": 16
+      },
+      {
+        "ign": "iccycup_",
+        "tier": "A+",
+        "region": "AS",
+        "updatedAt": "2026-03-04 06:52:13",
+        "tierOrder": 14
+      },
+      {
+        "ign": "PotatoPlayer922",
+        "tier": "B+",
+        "region": "N/A",
+        "updatedAt": "2026-03-05 16:17:14",
+        "tierOrder": 10
+      },
+      {
+        "ign": "ashiristhe",
+        "tier": "B-",
+        "region": "as",
+        "updatedAt": "2026-03-06 12:37:50",
+        "tierOrder": 8
+      },
+      {
+        "ign": "pikashrey",
+        "tier": "D-",
+        "region": "as",
+        "updatedAt": "2026-03-05 04:30:01",
+        "tierOrder": 0
+      }
+    ]
+  }
+}
