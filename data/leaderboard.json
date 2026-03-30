@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-03-23T10:29:48.199Z",
+  "generatedAt": "2026-03-30T17:03:07.454Z",
   "stats": {
-    "totalPlayers": 15,
-    "totalResults": 16,
-    "rankedPlayers": 10
+    "totalPlayers": 17,
+    "totalResults": 17,
+    "rankedPlayers": 11
   },
   "gamemodes": {
     "1.8": [
@@ -28,6 +28,14 @@
     ]
   },
   "overall": [
+    {
+      "ign": "AlwayReady",
+      "tier": "S-",
+      "gamemode": "Bedfight",
+      "region": "as",
+      "updatedAt": "2026-03-30 17:03:07",
+      "tierOrder": 16
+    },
     {
       "ign": "SharveIsMe",
       "tier": "S-",
@@ -110,16 +118,14 @@
     }
   ],
   "byGamemode": {
-    "Boxing": [
-      {
-        "ign": "CoreRiseOg",
-        "tier": "B-",
-        "region": "N/A",
-        "updatedAt": "2026-03-07 12:33:39",
-        "tierOrder": 8
-      }
-    ],
     "Bedfight": [
+      {
+        "ign": "AlwayReady",
+        "tier": "S-",
+        "region": "as",
+        "updatedAt": "2026-03-30 17:03:07",
+        "tierOrder": 16
+      },
       {
         "ign": "SharveIsMe",
         "tier": "S-",
@@ -161,6 +167,15 @@
         "region": "as",
         "updatedAt": "2026-03-05 04:30:01",
         "tierOrder": 0
+      }
+    ],
+    "Boxing": [
+      {
+        "ign": "CoreRiseOg",
+        "tier": "B-",
+        "region": "N/A",
+        "updatedAt": "2026-03-07 12:33:39",
+        "tierOrder": 8
       }
     ],
     "Bedwars": [
