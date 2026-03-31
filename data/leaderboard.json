@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-03-30T17:03:07.454Z",
+  "generatedAt": "2026-03-31T02:49:24.035Z",
   "stats": {
     "totalPlayers": 17,
-    "totalResults": 17,
+    "totalResults": 18,
     "rankedPlayers": 11
   },
   "gamemodes": {
@@ -28,14 +28,6 @@
     ]
   },
   "overall": [
-    {
-      "ign": "AlwayReady",
-      "tier": "S-",
-      "gamemode": "Bedfight",
-      "region": "as",
-      "updatedAt": "2026-03-30 17:03:07",
-      "tierOrder": 16
-    },
     {
       "ign": "SharveIsMe",
       "tier": "S-",
@@ -93,6 +85,14 @@
       "tierOrder": 10
     },
     {
+      "ign": "AlwayReady",
+      "tier": "B-",
+      "gamemode": "Bedfight",
+      "region": "as",
+      "updatedAt": "2026-03-31 02:49:24",
+      "tierOrder": 8
+    },
+    {
       "ign": "ashiristhe",
       "tier": "B-",
       "gamemode": "Bedfight",
@@ -120,13 +120,6 @@
   "byGamemode": {
     "Bedfight": [
       {
-        "ign": "AlwayReady",
-        "tier": "S-",
-        "region": "as",
-        "updatedAt": "2026-03-30 17:03:07",
-        "tierOrder": 16
-      },
-      {
         "ign": "SharveIsMe",
         "tier": "S-",
         "region": "AS",
@@ -153,6 +146,13 @@
         "region": "N/A",
         "updatedAt": "2026-03-05 16:17:14",
         "tierOrder": 10
+      },
+      {
+        "ign": "AlwayReady",
+        "tier": "B-",
+        "region": "as",
+        "updatedAt": "2026-03-31 02:49:24",
+        "tierOrder": 8
       },
       {
         "ign": "ashiristhe",
