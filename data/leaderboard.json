@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-03-31T07:21:03.079Z",
+  "generatedAt": "2026-03-31T14:40:38.272Z",
   "stats": {
-    "totalPlayers": 18,
-    "totalResults": 19,
-    "rankedPlayers": 12
+    "totalPlayers": 21,
+    "totalResults": 20,
+    "rankedPlayers": 13
   },
   "gamemodes": {
     "1.8": [
@@ -117,6 +117,14 @@
       "tierOrder": 8
     },
     {
+      "ign": "Jug789",
+      "tier": "D-",
+      "gamemode": "Bedfight",
+      "region": "N/A",
+      "updatedAt": "2026-03-31 14:40:38",
+      "tierOrder": 0
+    },
+    {
       "ign": "pikashrey",
       "tier": "D-",
       "gamemode": "Bedfight",
@@ -175,6 +183,13 @@
         "region": "as",
         "updatedAt": "2026-03-06 12:37:50",
         "tierOrder": 8
+      },
+      {
+        "ign": "Jug789",
+        "tier": "D-",
+        "region": "N/A",
+        "updatedAt": "2026-03-31 14:40:38",
+        "tierOrder": 0
       },
       {
         "ign": "pikashrey",
