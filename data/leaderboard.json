@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-03-31T14:40:38.272Z",
+  "generatedAt": "2026-03-31T14:43:24.902Z",
   "stats": {
     "totalPlayers": 21,
-    "totalResults": 20,
+    "totalResults": 21,
     "rankedPlayers": 13
   },
   "gamemodes": {
@@ -69,12 +69,12 @@
       "tierOrder": 14
     },
     {
-      "ign": "CoreRiseOg",
-      "tier": "B+",
-      "gamemode": "Bedfight",
+      "ign": "ZainTheGreatest",
+      "tier": "A-",
+      "gamemode": "Sumo",
       "region": "N/A",
-      "updatedAt": "2026-03-23 10:29:48",
-      "tierOrder": 10
+      "updatedAt": "2026-03-31 14:43:24",
+      "tierOrder": 12
     },
     {
       "ign": "Hikarushakadera",
@@ -150,13 +150,6 @@
         "tierOrder": 14
       },
       {
-        "ign": "CoreRiseOg",
-        "tier": "B+",
-        "region": "N/A",
-        "updatedAt": "2026-03-23 10:29:48",
-        "tierOrder": 10
-      },
-      {
         "ign": "Hikarushakadera",
         "tier": "B+",
         "region": "N/A",
@@ -168,6 +161,13 @@
         "tier": "B+",
         "region": "N/A",
         "updatedAt": "2026-03-05 16:17:14",
+        "tierOrder": 10
+      },
+      {
+        "ign": "ZainTheGreatest",
+        "tier": "B+",
+        "region": "N/A",
+        "updatedAt": "2026-03-23 10:29:48",
         "tierOrder": 10
       },
       {
@@ -197,15 +197,6 @@
         "region": "as",
         "updatedAt": "2026-03-05 04:30:01",
         "tierOrder": 0
-      }
-    ],
-    "Boxing": [
-      {
-        "ign": "CoreRiseOg",
-        "tier": "B-",
-        "region": "N/A",
-        "updatedAt": "2026-03-07 12:33:39",
-        "tierOrder": 8
       }
     ],
     "Bedwars": [
@@ -243,6 +234,24 @@
         "region": "AS",
         "updatedAt": "2026-03-03 17:35:13",
         "tierOrder": -1
+      }
+    ],
+    "Boxing": [
+      {
+        "ign": "ZainTheGreatest",
+        "tier": "B-",
+        "region": "N/A",
+        "updatedAt": "2026-03-07 12:33:39",
+        "tierOrder": 8
+      }
+    ],
+    "Sumo": [
+      {
+        "ign": "ZainTheGreatest",
+        "tier": "A-",
+        "region": "N/A",
+        "updatedAt": "2026-03-31 14:43:24",
+        "tierOrder": 12
       }
     ]
   }
