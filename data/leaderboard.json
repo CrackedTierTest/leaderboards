@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-03-31T02:49:24.035Z",
+  "generatedAt": "2026-03-31T07:21:03.079Z",
   "stats": {
-    "totalPlayers": 17,
-    "totalResults": 18,
-    "rankedPlayers": 11
+    "totalPlayers": 18,
+    "totalResults": 19,
+    "rankedPlayers": 12
   },
   "gamemodes": {
     "1.8": [
@@ -77,6 +77,14 @@
       "tierOrder": 10
     },
     {
+      "ign": "Hikarushakadera",
+      "tier": "B+",
+      "gamemode": "Bedfight",
+      "region": "N/A",
+      "updatedAt": "2026-03-31 07:21:03",
+      "tierOrder": 10
+    },
+    {
       "ign": "PotatoPlayer922",
       "tier": "B+",
       "gamemode": "Bedfight",
@@ -138,6 +146,13 @@
         "tier": "B+",
         "region": "N/A",
         "updatedAt": "2026-03-23 10:29:48",
+        "tierOrder": 10
+      },
+      {
+        "ign": "Hikarushakadera",
+        "tier": "B+",
+        "region": "N/A",
+        "updatedAt": "2026-03-31 07:21:03",
         "tierOrder": 10
       },
       {
